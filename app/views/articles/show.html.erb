@@ -1,5 +1,12 @@
-<h1>le Show des tâches</h1>
+<h2>Quel est cet article?</h2>
 
 <!-- Should display the task's details (content, date of creation, etc.) and a back-link to the index page. -->
-<h2><%= @article.title %></h2>
-<p><%= @articles.content %></p>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1">
+      <h3><%= @article.title %></h3>
+      <p><%= @article.content %></p>
+    </div>
+  </div>
+</div>
+
